@@ -1,0 +1,2 @@
+1. Create a new directory raw/ within NOrthGen/
+2. COPY the Liphistius/ directory to raw/ and then execute 2a.NOrthGen_till_nuc_buscos.sh
