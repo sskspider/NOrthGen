@@ -1,5 +1,4 @@
-##1. Create a directory "XXXXXX"
-##2. Create a sub-directory "raw" with XXXXXX/ and copy all .mRNA files into it (i.e. /XXXXXX/raw/)
+##1. Create a directory "raw" within NOrthGen/ directory and copy all .mRNA files into it (i.e. /NOrthGen/raw/)
 
 ###################################################################################################
 ##(Optional) can modify the following for loop to copy all .mRNA and  full_table_taxon-name files##
@@ -9,7 +8,7 @@
 
 
 ##-----------------------------------------------------------------------------------##
-##IMPORTANT: This and the next script needs to be executed from the directory XXXXXX/##
+##IMPORTANT: This and the next script needs to be executed from the directory NOrthGen/##
 ##-----------------------------------------------------------------------------------##
 
 
@@ -20,4 +19,4 @@ for i in *.mRNA; do mkdir -- "${i%.fasta.transdecoder.mRNA}"; done
 for i in *.mRNA; do mv -- "$i" ./"${i%.fasta.transdecoder.mRNA}";done
 for f in full_table_*; do mv "$f" ./"${f#full_table_}"; done
 
-echo "Done. Execute the next script from XXXXXX/"
+echo "Check if all the .mRNA and full_table files are in their respective directories. If yes, go to NOrthGen/ directory and execute the next script"
