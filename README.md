@@ -2,6 +2,7 @@
 # Nucleotide Ortholog Generator
 
 ## Purpose
+NOrthGen is developed to obtain orthologs from genomes/transcriptomes as nucleotides.
 
 ## Installation
 This standalone tool is implemented in BASH and does not require any additional dependencies. Simple download or clone the files to your directory and they are ready to use.
