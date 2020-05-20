@@ -9,7 +9,7 @@ echo "       Nucleotide      Ortholog         Generator  "
 echo
 echo
 echo "version 1"
-echo "Developed by Siddharth Kulkarni & Gustavo Hormiga"
+echo "Developed by Siddharth Kulkarni, Gonzalo Giribet & Gustavo Hormiga"
 echo
 echo "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 echo
