@@ -19,7 +19,7 @@ This standalone tool is implemented in BASH and does not require any additional 
 5. If you wish to delete all the intermediate files, execute "3.Clean.sh". Only the .mRNA input file and the output files will remain.
 
 
-## Discussion
+## More on this
 Input
 NOrthGen requires a BUSCO run on the translated data which aids in generating a match of assembly identifier with the ortholog identifier. The resulting BUSCO scores table and the .mRNA output file of TransDecoder (Haas et al. 2013) are used as input files.
 
